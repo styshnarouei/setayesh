@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css"
+          href="StyleSheet1.css" />
+    <style type="text/css"></style>
+</head>
+<body>
+   <b>
+       <p dir="rtl" > اطلاعات خود را وارد کنید</p>
+   </b>
+   <form dir="rtl">
+       <labal> نام</labal>
+       <input type="text" name="fnam" /><br />
+       <label> نام خانوادگی</label>
+       <input type="password" name="fnam" /><br />
+       <label> رمز عبور</label>
+       <input type="password" name="fnam" /><br />
+       <label>تلفن همراه</label>
+       <input type="password" name="fnam" /><br />
+       <label> ایمیل</label>
+       <input type="password" name="fnam" /><br />
+       <label>جنسیت</label><br />
+       زن <input type="radio" name="jensiat" />
+       مرد <input type="radio" name="jensiat" /><br />
+
+
+       <select>
+           <option dir="rtl">شهر خود را وارد کنید </option>
+           <optgroup label="تهران">
+               <option>شهرک غرب</option>
+               <option>اکتابان</option>
+               <option>مشهد</option>
+               <option>بیرجند</option>
+               <option>بجنورد</option>
+               <option>شیراز</option>
+               <option>قم</option>
+           </optgroup>
+       </select><br />
+       }
+       <script type="text/javascript" language="javascript">
+           var a = new Data();
+           var z = a.getHours();
+           document.write("صبح بخیر");
+           if (z < 10)
+
+           else if (z >= 10 && z < 14) {
+               document.write("ظهر بخیر");
+           }
+
+
+       </script>
+
+       <textarea rows="8" dir="rtl">توضیحات</textarea>
+
+   </form>
+</body>
+</html>
