@@ -1,8 +1,9 @@
 ﻿body
 
 {
-    background-color: lightpink;
-    text-align-last: center;
-    color: black;
+     background-color: lightblue;
+    text-align-last:center;
+    text-align:right; 
+    color: blueviolet;
     direction: rtl
 }
